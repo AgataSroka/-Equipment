@@ -5,9 +5,26 @@
   <title>Equipment</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
 </head>
 <body>
+<script>
+function hidden() {
+let element = document.getElementById('view_equipment');
+  console.log(element);
+
+
+element.addEventListener('click', function () {
+if (element.style.display === 'block')
+{
+element.style.display = 'none';
+}
+})
+}
+
+hidden();
+</script>
   <app-root></app-root>
 </body>
 </html>
