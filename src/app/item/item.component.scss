@@ -6,6 +6,12 @@
   width: 52vw;
   border: 0.0625rem solid darkgrey;
   background-color: #37474F;
+  cursor: pointer;
+
+  #close {
+    outline: none;
+    cursor: pointer;
+  }
 
   button:not(.open) {
     width: 4rem;
@@ -36,7 +42,7 @@
       text-transform: uppercase;
     }
 
-    .open {
+    #open {
       height: 6vh;
       width: 15vw;
       background-color: #66CC99;
@@ -47,6 +53,8 @@
       border: none;
       white-space: nowrap;
       margin-top: 40vh;
+      margin-left: 18.5vw;
+      cursor: pointer;
     }
   }
 }

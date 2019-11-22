@@ -24,7 +24,19 @@ export class ItemComponent implements OnInit {
     }
 
     hidden();
-  }
 
+
+    function open_item() {
+
+      let button_open = document.getElementById('open');
+      let element_remove = document.getElementById('item').firstChild;
+
+      button_open.addEventListener('click', function () {
+        element_remove.remove()
+      })
+    }
+
+    open_item()
+  }
 }
 

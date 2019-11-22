@@ -30,8 +30,8 @@ export class AllItemsComponent implements OnInit {
 
 
     function show_reward() {
-      let item = document.getElementById('item2');
 
+      let item = document.getElementById('item2');
       let element = document.getElementById('reward_view');
 
       item.addEventListener('click', function () {

@@ -6,6 +6,12 @@
   width: 52vw;
   border: 0.0625rem solid darkgrey;
   background-color: #37474F;
+  cursor: pointer;
+
+  #close_view {
+    outline: none;
+    cursor: pointer;
+  }
 
   button:not(.open) {
     width: 4rem;
@@ -25,28 +31,33 @@
     align-items: center;
     display: block;
     background-image: url("../../assets/sample-reward.png");
-    background-size: 50%;
+    background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
 
     p {
-      font-size: 2.7vw;
-      color: white;
+      font-size: 1.2vw;
+      color: #66CC99;
       text-transform: uppercase;
+      position: absolute;
+      bottom: 0;
+      margin-left: 24.2vw;
+
     }
 
-    .open {
+    #open {
       height: 6vh;
       width: 15vw;
-      background-color: #66CC99;
-      color: black;
+      background-color: #263238;
+      color: white;
       font-size: 1.2vw;
       text-transform: uppercase;
       border-radius: 0.3125rem;
       border: none;
       white-space: nowrap;
-      margin-top: 40vh;
+      margin-top: 55vh;
+      margin-left: 18.5vw;
     }
   }
 }

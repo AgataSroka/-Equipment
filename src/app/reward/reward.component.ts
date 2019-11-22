@@ -25,5 +25,4 @@ export class RewardComponent implements OnInit {
 
     reward_hidden();
   }
-
 }

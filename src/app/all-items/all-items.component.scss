@@ -38,13 +38,16 @@
         flex-wrap: wrap;
       }
 
-
       div:not(.add_part) {
         width: 4.375rem;
         height: 4.375rem;
         border: solid #37474F;
         background-image: url("../../assets/sample-chest.png");
         background-size: cover;
+      }
+
+      div:hover {
+        border: 2px solid yellow;
       }
 
       .add_part {
@@ -72,13 +75,16 @@
         flex-wrap: wrap;
       }
 
-
       div:not(.add_part) {
         width: 4.375rem;
         height: 4.375rem;
         border: solid #37474F;
         background-image: url("../../assets/runes.jpg");
         background-size: cover;
+      }
+
+      div:hover {
+        border: 2px solid yellow;
       }
 
       .add_part {
@@ -110,8 +116,12 @@
         width: 4.375rem;
         height: 4.375rem;
         border: solid #37474F;
-        background-image: url("../../assets/award.png");
+        background-image: url("../../assets/sample-reward.png");
         background-size: cover;
+      }
+
+      div:hover {
+        border: 2px solid yellow;
       }
 
       .add_part {
@@ -127,3 +137,5 @@
   }
 
 }
+
+
